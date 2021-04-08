@@ -1,0 +1,14 @@
+n = 1
+p = []
+i = []
+
+while n <= 10:
+    num = int(input(':'))
+    if num % 2 == 0:
+        p.append(num)
+    else:
+        i.append(num)
+    n +=1
+print('Even:',p,'->',len(p))
+print('')
+print('Odd:',i,'->',len(i))
